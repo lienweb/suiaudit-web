@@ -1,4 +1,7 @@
+"use client";
 // import heroImage from "@/assets/hero-background.jpg";
+import { demoVideoUrl, githubRepoUrl, POC_BASE_PATH } from "@/constants";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -23,6 +26,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#0857aa] opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#0857aa]"></span>
             </span>
+            {""}
             New: AI-Powered Code Audit Features available
           </div>
 
@@ -41,12 +45,24 @@ export default function Hero() {
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <button className="group cursor-pointer bg-[#0857aa] px-6 py-3 rounded-lg text-white font-medium shadow-lg hover:bg-[#064a8c] transition">
+            <button
+              className="group cursor-pointer bg-[#0857aa] px-6 py-3 rounded-lg text-white font-medium shadow-lg hover:bg-[#064a8c] transition"
+              onClick={() => window.open(githubRepoUrl, "_blank")}
+            >
               Get Started Free
             </button>
-            <button className="group cursor-pointer bg-transparent border border-[#0857aa] px-6 py-3 rounded-lg text-[#0857aa] font-medium hover:bg-[#0857aa]/10 transition">
+            <button
+              className="group cursor-pointer bg-transparent border border-[#0857aa] px-6 py-3 rounded-lg text-[#0857aa] font-medium hover:bg-[#0857aa]/10 transition"
+              onClick={() => window.open(demoVideoUrl, "_blank")}
+            >
               Watch Demo
             </button>
+            <Link
+              href={POC_BASE_PATH}
+              className="group cursor-pointer bg-[#0857aa] px-6 py-3 rounded-lg text-white font-medium shadow-lg hover:bg-[#064a8c] transition"
+            >
+              Explore Sui Wallet Cleanup POC
+            </Link>
           </div>
         </div>
       </div>
