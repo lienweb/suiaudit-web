@@ -1,3 +1,5 @@
+import { contactEmail } from "@/constants";
+
 export default function Footer() {
   return (
     <footer className="border-t border-gray-400 bg-gray-50">
@@ -17,7 +19,10 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">About Us</h3>
             <ul className="space-y-2 text-sm ">
               <li>
-                <a href="#" className="hover:text-[#4b7ac6] transition-colors">
+                <a
+                  href={`mailto:${contactEmail}`}
+                  className="hover:text-[#4b7ac6] transition-colors"
+                >
                   SuiAudit Lab
                 </a>
               </li>
