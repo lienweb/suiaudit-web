@@ -1,6 +1,6 @@
 # 🚀 SuiAudit Website
 
-[![License](https://img.shields.io/github/license/k66inthesky/suiguard)](./LICENSE)
+[![License](https://img.shields.io/github/license/lienweb/suiaudit-web)](./LICENSE)
 
 <!-- [![Build Status](https://img.shields.io/github/actions/workflow/status/yourname/yourrepo/ci.yml)](https://github.com/yourname/yourrepo/actions)
 [![npm version](https://img.shields.io/npm/v/your-package)](https://www.npmjs.com/package/your-package) -->
@@ -9,7 +9,7 @@
 
 ## 🛠 Features
 
-- website for SuiAudit
+- SuiAudit Official Website
 
 ---
 
@@ -23,7 +23,7 @@
 ### 📦 Installation
 
 ```bash
-git clone git@github.com:k66inthesky/suiguard.git
+git clone git@github.com:lienweb/suiaudit-web.git
 cd website
 pnpm install
 pnpm build
@@ -47,6 +47,6 @@ Update website:
 
 ## 📜 License
 
-Apache License 2.0, see [LICENSE](https://github.com/k66inthesky/suiguard/blob/main/LICENSE).
+Apache License 2.0, see [LICENSE](https://github.com/lienweb/suiaudit-web/blob/main/LICENSE).
 
 ---
