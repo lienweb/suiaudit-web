@@ -1,4 +1,9 @@
 {
+  "routes": {
+    "/": "/index.html",
+    "/sui-wallet-cleanup-app": "/sui-wallet-cleanup-app.html",
+    "/sui-wallet-cleanup-app/blocklist": "/sui-wallet-cleanup-app/blocklist.html"
+  },
   "site_name": "suiaudit",
   "object_id": ""
 }
